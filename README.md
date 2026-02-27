@@ -1,1 +1,9 @@
-# bus_and_trolleybus
+# Bus and Trolleybus (BaT)
+
+Language:
+* C++
+
+Dependencies: 
+* raylib
+
+
