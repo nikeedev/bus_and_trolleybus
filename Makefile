@@ -1,11 +1,13 @@
-CC := clang++
+CC := gcc
 
-SRC := src/main.cpp
+SRC := src/main.c src/game.c 
 
-CFLAGS := -Wall -o BaT
+CFLAGS := -Wall -o BaT -g
 
-LDFLAGS := -lraylib
+LDFLAGS := -lraylib 
 
-all:
+all: build
 
+
+build: src/main.c src/game.c 
 	$(CC) $(SRC) $(CFLAGS) $(LDFLAGS)

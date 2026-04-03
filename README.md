@@ -1,7 +1,7 @@
 # Bus and Trolleybus (BaT)
 
 Language:
-* C++
+* C
 
 Dependencies: 
 * raylib
